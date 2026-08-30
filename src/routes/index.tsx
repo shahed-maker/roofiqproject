@@ -366,7 +366,7 @@ function Index() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="border-t border-border bg-secondary/60">
+      <section id="contact" className="border-t border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
