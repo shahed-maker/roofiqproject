@@ -180,7 +180,7 @@ function Index() {
           height={1000}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-primary/80" />
+        <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32 lg:py-40">
           <div className="max-w-3xl">
             <p className="mb-5 text-xs font-semibold tracking-[0.25em] text-accent uppercase">
