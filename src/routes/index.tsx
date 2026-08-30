@@ -112,7 +112,7 @@ function Index() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground antialiased">
+    <div className="min-h-screen overflow-x-hidden bg-site font-sans text-foreground antialiased">
       {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
@@ -180,7 +180,7 @@ function Index() {
           height={1000}
           className="absolute inset-0 h-full w-full object-cover"
         />
-        <div className="absolute inset-0 bg-primary/80" />
+        <div className="absolute inset-0 bg-hero-overlay" />
         <div className="relative mx-auto max-w-6xl px-5 py-24 sm:py-32 lg:py-40">
           <div className="max-w-3xl">
             <p className="mb-5 text-xs font-semibold tracking-[0.25em] text-accent uppercase">
@@ -248,7 +248,7 @@ function Index() {
       </section>
 
       {/* SERVICES */}
-      <section id="services" className="border-y border-border bg-secondary/60">
+      <section id="services" className="border-y border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <SectionHead eyebrow="Services" title="Commercial Roofing Services" />
           <div className="grid gap-px bg-border sm:grid-cols-2 lg:grid-cols-3">
@@ -279,7 +279,7 @@ function Index() {
       </section>
 
       {/* BEFORE & AFTER */}
-      <section id="before-after" className="border-y border-border bg-primary text-primary-foreground">
+      <section id="before-after" className="border-y border-border bg-primary-section text-primary-foreground">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <div className="mb-10 max-w-2xl">
             <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-accent uppercase">
@@ -329,7 +329,7 @@ function Index() {
       </section>
 
       {/* VIDEOS */}
-      <section id="videos" className="border-y border-border bg-secondary/60">
+      <section id="videos" className="border-y border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <SectionHead eyebrow="Videos" title="See The Work In Action" />
           <p className="-mt-6 mb-10 max-w-xl text-muted-foreground">
@@ -366,7 +366,7 @@ function Index() {
       </section>
 
       {/* CONTACT */}
-      <section id="contact" className="border-t border-border bg-secondary/60">
+      <section id="contact" className="border-t border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <div className="grid gap-12 lg:grid-cols-2">
             <div>
@@ -446,7 +446,7 @@ function Index() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-primary text-primary-foreground">
+      <footer className="bg-primary-section text-primary-foreground">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <p className="font-display text-xl uppercase tracking-[0.2em]">
