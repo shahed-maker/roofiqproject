@@ -32,8 +32,8 @@ export default function BeforeAfter({ before, after, alt, caption }: Props) {
         onMouseMove={(e) => dragging.current && move(e.clientX)}
         onMouseUp={() => (dragging.current = false)}
         onMouseLeave={() => (dragging.current = false)}
-        onTouchStart={(e) => move(e.touches[0].clientX)}
-        onTouchMove={(e) => move(e.touches[0].clientX)}
+        onTouchStart={(e) => e.touches[0] && move(e.touches[0].clientX)}
+        onTouchMove={(e) => e.touches[0] && move(e.touches[0].clientX)}
       >
         <img
           src={after}
