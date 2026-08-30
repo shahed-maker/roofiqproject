@@ -112,7 +112,7 @@ function Index() {
   }
 
   return (
-    <div className="min-h-screen overflow-x-hidden bg-background font-sans text-foreground antialiased">
+    <div className="min-h-screen overflow-x-hidden bg-site font-sans text-foreground antialiased">
       {/* HEADER */}
       <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between px-5 py-4">
