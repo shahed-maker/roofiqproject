@@ -279,7 +279,7 @@ function Index() {
       </section>
 
       {/* BEFORE & AFTER */}
-      <section id="before-after" className="border-y border-border bg-primary text-primary-foreground">
+      <section id="before-after" className="border-y border-border bg-primary-section text-primary-foreground">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <div className="mb-10 max-w-2xl">
             <p className="mb-3 text-xs font-semibold tracking-[0.25em] text-accent uppercase">
