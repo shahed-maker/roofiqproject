@@ -329,7 +329,7 @@ function Index() {
       </section>
 
       {/* VIDEOS */}
-      <section id="videos" className="border-y border-border bg-secondary/60">
+      <section id="videos" className="border-y border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <SectionHead eyebrow="Videos" title="See The Work In Action" />
           <p className="-mt-6 mb-10 max-w-xl text-muted-foreground">
