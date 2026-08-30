@@ -446,7 +446,7 @@ function Index() {
       </section>
 
       {/* FOOTER */}
-      <footer className="bg-primary text-primary-foreground">
+      <footer className="bg-primary-section text-primary-foreground">
         <div className="mx-auto grid max-w-6xl gap-10 px-5 py-14 sm:grid-cols-2 lg:grid-cols-3">
           <div>
             <p className="font-display text-xl uppercase tracking-[0.2em]">
