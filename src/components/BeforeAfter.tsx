@@ -42,19 +42,15 @@ export default function BeforeAfter({ before, after, alt, caption }: Props) {
           className="absolute inset-0 h-full w-full object-cover"
           draggable={false}
         />
-        <div
-          className="absolute inset-0 overflow-hidden"
-          style={{ width: `${pos}%` }}
-        >
-          <img
-            src={before}
-            alt={`${alt} — before`}
-            loading="lazy"
-            className="absolute inset-0 h-full w-full object-cover"
-            style={{ width: ref.current?.clientWidth ?? "100%", maxWidth: "none" }}
-            draggable={false}
-          />
-        </div>
+        <img
+          src={before}
+          alt={`${alt} — before`}
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover"
+          style={{ clipPath: `inset(0 ${100 - pos}% 0 0)` }}
+          draggable={false}
+        />
+
 
         <span className="absolute left-3 top-3 bg-foreground/85 px-2.5 py-1 text-[11px] font-semibold tracking-[0.18em] text-background">
           BEFORE
