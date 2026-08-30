@@ -248,7 +248,7 @@ function Index() {
       </section>
 
       {/* SERVICES */}
-      <section id="services" className="border-y border-border bg-secondary/60">
+      <section id="services" className="border-y border-border bg-section-alt">
         <div className="mx-auto max-w-6xl px-5 py-20 sm:py-24">
           <SectionHead eyebrow="Services" title="Commercial Roofing Services" />
           <div className="grid gap-px bg-border sm:grid-cols-2 lg:grid-cols-3">
